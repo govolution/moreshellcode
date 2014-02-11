@@ -15,8 +15,6 @@ _start:
 	push 0x78 ; push x, filename
 	mov ebx,esp
 	xor eax,eax
-	xor ecx,ecx
-	cdq
 	mov al,0xa
 	int 0x80
 	
